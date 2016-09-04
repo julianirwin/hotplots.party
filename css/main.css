@@ -1,0 +1,27 @@
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: progid:none !important;>
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  font-size: 30px;
+  color: #333333;
+}
+
+.column-title{
+  text-align: center;
+}
+
+.carousel-caption-below {
+  margin-top: 15px;
+}
+
+.plot-title{
+  text-align: center;
+}

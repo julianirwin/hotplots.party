@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>hotplots</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script/main.js"></script>
+    <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'> -->
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="header clearfix">
+          <!-- <nav> -->
+          <!--   <ul class="nav nav-pills pull-right"> -->
+          <!--     <li role="presentation" class="active"><a href="#">Home</a></li> -->
+          <!--     <li role="presentation"><a href="#">About</a></li> -->
+          <!--     <li role="presentation"><a href="#">Contact</a></li> -->
+          <!--   </ul> -->
+          <!-- </nav> -->
+          <h3 class="text-muted">hotplots</h3>
+        </div>
+
+        <div class="jumbotron">
+          <h1>Use Hotter Plots</h1>
+          <p class="lead">And fewer not hot plots. Here is a list of plots
+          to avoid and what to replace them with.</p>
+        </div>
+
+        <div class="row plots">
+          <div class="col-lg-6">
+            <h1 class="column-title">Instead of: </h1>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="column-title">Use:</h1>
+          </div>
+        </div>
+
+        <div class="row plots">
+          <div class="col-lg-6">
+
+            <h3 class="plot-title">Pie Charts</h3>
+            <div id="carousel-burrito-not" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-burrito-not" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-burrito-not" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/burrito_pie_chart_excel.png" alt="burrito pie chart">
+                </div>
+                <div class="item">
+                  <img src="images/burrito_donut_chart_excel.png" alt="burrito donut chart">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-burrito-not" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-burrito-not" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <p class="carousel-caption-below">
+            Pie charts make it very hard to compare areas when two regions are
+            approximately the same size. You can compensate by adding labels,
+            but then you might as well have a table or a paragraph instead of
+            a plot.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+
+            <h3 class="plot-title">Bar Charts</h3>
+
+            <div id="carousel-burrito-hot" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-burrito-hot" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-burrito-hot" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/burrito_hotplot_seaborn.png" alt="seaborn burrito bar chart">
+                </div>
+                <div class="item">
+                  <img src="images/burrito_hotplot.png" alt="matplotlib burrito bar chart">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-burrito-hot" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-burrito-hot" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="carousel-caption-below">
+            Bar charts assure that your data from each category is well labeled
+            and easy to compare with other categories. Further reading can be
+            found on 
+              <a href="http://www.storytellingwithdata.com/blog/2014/06/alternatives-to-pies">storytellingwithdata.com</a> 
+              and 
+              <a href="http://varianceexplained.org/r/improving-pie-chart/">varianceexplained.org</a>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="row plots">
+          <div class="col-lg-6">
+            <h1 class="column-title">Instead of: </h1>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="column-title">Use:</h1>
+          </div>
+        </div>
+
+
+        <div class="row plots">
+         
+          <div class="col-lg-6">
+
+            <h3 class="plot-title">A Pie Chart Series</h3>
+
+            <div id="carousel-burrito-2-not" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-burrito-2-not" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-burrito-2-not" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/burrito_pie2_chart_excel.png" alt="excel burrito two pie chart">
+                </div>
+                <div class="item">
+                  <img src="images/burrito_donut2_chart_excel.png" alt="excel burrito two donut chart">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-burrito-2-not" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-burrito-2-not" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="carousel-caption-below">
+            Stacking on more pie charts just stacks on the pain. Now the
+            viewer needs to compare segments of one round object to segments
+            of another round object a few inches away. Impossible!
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+
+            <h3 class="plot-title">Stacked Bar Charts, Slope Graphs</h3>
+
+            <div id="carousel-burrito-2-hot" class="carousel slide" data-ride="carousel" data-interval="false">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-burrito-2-hot" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-burrito-2-hot" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/burrito_horizontal_bar.png" alt="matplotlib horizontal bar burrito">
+                </div>
+                <div class="item">
+                  <img src="images/burrito_slopegraph.png" alt="matplotlib slopegraph burrito">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-burrito-2-hot" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-burrito-2-hot" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="carousel-caption-below">
+
+            Again, the bar chart is better  becuase rectangles are easier than
+            wedges when it comes to comparing areas. Stacked bar charts also
+            convey that you are breaking a whole into parts in the same way a
+            pie chart does. It actually works a bit better when you have
+            multiple stacks because your eye sees that the total length doen't
+            change. 
+            </p>
+            <p> 
+            Slopegraphs don't make it obvious that your categories are parts of
+            a whole, but they do well at highlighting what categories are
+            changing and by how much.  Categories with similar variation will
+            be grouped together by your eye.
+            <\p>
+            <p>
+            Further reading can be found on <a href="http://www.storytellingwithdata.com/blog/2014/06/alternatives-to-pies">storytellingwithdata.com</a>
+            and <a href="http://varianceexplained.org/r/improving-pie-chart/">varianceexplained.org</a>.
+            </p>
+
+          </div>
+          </div>
+
+        </div>
+
+
+        <footer class="footer">
+          <p>&copy; 2016 Company, Inc.</p>
+        </footer>
+
+      </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+
+</html>
