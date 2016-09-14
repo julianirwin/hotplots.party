@@ -1,0 +1,1 @@
+Panel Member	Before	AfterAlice	20.00	51.00Bob	0.00	51.00Cecil	18.00	84.00Darius	35.00	63.00Enokil	46.00	70.00Ferrin	43.00	95.00Galaparo	39.00	86.00Hillba	43.00	98.00Inez	35.00	53.00Jalapusa	4.00	56.00Kareem	11.00	70.00Lanenia	24.00	99.00Manus	17.00	91.00
