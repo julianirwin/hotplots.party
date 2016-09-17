@@ -5,7 +5,7 @@ import pandas as pd
 
 sns.set(style='whitegrid', font_scale=1.5)
 
-df = pd.read_csv('car_crashes.csv')
+df = pd.read_csv('iris.csv')
 
 vars = ('total', 'alcohol', 'speeding', 'not_distracted', 'no_previous')
 ax = sns.pairplot(data=df, vars=vars)
