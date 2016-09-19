@@ -41,4 +41,10 @@ img.replace-carousel {
   text-align: center;
 }
 
+.even-row {
+  background: #FFC588;
+}
 
+.odd-row {
+  background: #EEEEEE;
+}
