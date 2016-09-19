@@ -14,6 +14,11 @@
   color: #333333;
 }
 
+.carousel-caption-below {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
 .column-title{
   text-align: center;
 }
@@ -48,3 +53,11 @@ img.replace-carousel {
 .odd-row {
   background: #EEEEEE;
 }
+
+.plots {
+  border-radius: 6px;
+}
+
+.top5 { margin-top:5px; }
+.top10 { margin-top:10px; }
+.top20 { margin-top:30px; }
